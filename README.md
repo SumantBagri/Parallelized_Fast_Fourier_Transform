@@ -1,6 +1,6 @@
 # Fast Fourier Transform
 ## Overall Description
-Contains Serial (recursive) and Parallel Version (openMPI and CUDA) of the Fast Fourier Transform algorithm. Used to converts a signal from its original domain to a representation in the frequency domain and vice versa. A performance analysis was performed to show display execution time, speed-up, and efficiency ([pdf]())
+Contains Serial (recursive) and Parallel Version (openMPI and CUDA) of the Fast Fourier Transform algorithm. Used to converts a signal from its original domain to a representation in the frequency domain and vice versa. A performance analysis was performed to show display execution time, speed-up, and efficiency ([pdf](https://github.com/SumantBagri/Parallelized_Fast_Fourier_Transform/blob/main/Parallel-Fast-Fourier-Transform.pdf))
 
 ## Compilation Instructions
 ```
@@ -60,4 +60,4 @@ Run using    : "cuda-memcheck ./fft-cuda"
 ## Performance Analysis Breakdown
 ### Execution Time
 Execution time decreases as the number of parallel threads increases. It plateaus around 6 threads for an input size of $$2^{20}$$ showing a slight increase when the number of threads increases to 8
-![Comparison of time take to compute the FFT with OpenMP with number of threads](https://i.imgur.com/pwfAWvE.png)
+![Imgur](http://i.imgur.com/pwfAWvE.png)
