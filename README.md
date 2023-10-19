@@ -60,4 +60,5 @@ Run using    : "cuda-memcheck ./fft-cuda"
 ## Performance Analysis Breakdown
 ### Execution Time
 Execution time decreases as the number of parallel threads increases. It plateaus around 6 threads for an input size of $$2^{20}$$ showing a slight increase when the number of threads increases to 8
+
 ![Imgur](http://i.imgur.com/pwfAWvE.png)
