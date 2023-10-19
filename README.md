@@ -60,4 +60,4 @@ Run using    : "cuda-memcheck ./fft-cuda"
 ## Performance Analysis Breakdown
 ### Execution Time
 Execution time decreases as the number of parallel threads increases. It plateaus around 6 threads for an input size of $$2^{20}$$ showing a slight increase when the number of threads increases to 8
-![](https://i.imgur.com/pwfAWvE.png)
+![Comparison of time take to compute the FFT with OpenMP with number of threads](https://i.imgur.com/pwfAWvE.png)
